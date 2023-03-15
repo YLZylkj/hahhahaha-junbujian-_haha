@@ -1,0 +1,33 @@
+{
+    "title": "Moving Around",
+    "description": "Moving around with keyboard shortcuts",
+    "details": {
+        "intro": {
+            "text": "intro.md"
+        },
+        "steps": [
+            {
+                "title": "Moving Around",
+                "text": "step1/text.md",
+                "verify": "step1/verify.sh"
+            },
+            {
+                "title": "Keyboard Shortcuts",
+                "text": "step2/text.md",
+                "verify": "step2/verify.sh"
+            }
+        ],
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "backend": {
+        "imageid": "alpine",
+        "expose": 8080,
+        "layout": "",
+        "skins": "",
+        "tools": "idea | terminal | notebook",
+        "cpu": 1,
+        "memory": 1024
+    }
+}
